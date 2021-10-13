@@ -1,0 +1,18 @@
+{
+    "name": "elrod/site-map",
+    "description": "Este paquete puede generar un mapa de la aplicaci\u0000n.",
+    "authors": [
+        {
+            "name": "elmer rodriguez",
+            "email": "elrodriguez2423@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5|^8.0"
+    },
+    "autoload": {
+        "psr-4":{
+            "Elrod\\SiteMap\\": "src/"
+        }
+    }
+}
